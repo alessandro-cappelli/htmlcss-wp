@@ -31,6 +31,7 @@ nav li a{
 nav li a:hover{
     text-decoration: underline;
 }
+
 nav{
     margin-bottom: 33px;
 }
@@ -51,6 +52,7 @@ nav{
     bottom: 59px;
     padding-left: 50px;
     padding-right: 336px;
+    color: rgb(255,255,255);
 }
 
 .banner-text-2{
@@ -62,11 +64,12 @@ nav{
 }
 
 .stt{
-
+    color: rgb(129,133,136);
+    font-size: 13px;
 }
 
 .colore{
-    background-color: hotpink;
+    
 }
 
 .container::after{
@@ -83,10 +86,14 @@ nav{
 
 .collx,.collr{
     width: 20%;
-    background-color: lightblue;
+    
 }
 
 .collc{
     width: 60%;
     padding: 0 10px;
+}
+
+.collr{
+    size: cover;
 }
