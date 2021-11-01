@@ -97,4 +97,38 @@ nav{
     width: 60%;
     padding: 0 10px;
 }
+/* IMMAGINI */
+.collx{
+    background-image: url(../img/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin: 10px 0;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    border-radius: 10px;
+}
+
+
+.collc{
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    border-radius: 10px;
+}
+
+
+.collr{
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    border-radius: 10px;
+}
+
 
