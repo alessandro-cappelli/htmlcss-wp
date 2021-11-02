@@ -17,7 +17,7 @@ body{
     margin-bottom: 33px;
 }
 
-nav li{
+nav ul li{
     display: inline;
     text-transform: uppercase;
     list-style: none;
@@ -28,7 +28,7 @@ nav li a{
     color: grey;
 }
 
-nav li a:hover{
+nav a:hover{
     text-decoration: underline;
 }
 
@@ -70,10 +70,7 @@ nav{
 .stt{
     color: rgb(129,133,136);
     font-size: 13px;
-}
-
-.colore{
-    
+    margin-bottom: 33px;
 }
 
 .container::after{
@@ -85,7 +82,6 @@ nav{
 .col{
     float: left;
     margin: 10px 0;
-    
 }
 
 .collx,.collr{
@@ -97,8 +93,34 @@ nav{
     width: 60%;
     padding: 0 10px;
 }
+
+
+
 /* IMMAGINI */
-.collx{
+.containerimg::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img{
+    float: left;
+    margin: 10px 0;
+    
+}
+
+.dx,.dl{
+    width: 20%; 
+}
+
+.c{
+    width: 58%;
+    padding: 0 0px;
+    margin: 10px;
+}
+
+
+.dx{
     background-image: url(../img/img-1.jpg);
     background-position: center;
     background-size: cover;
@@ -107,10 +129,11 @@ nav{
     background-color: rgba(0,0,0,0.3);
     background-blend-mode: multiply;
     border-radius: 10px;
+    height: 184px;
 }
 
 
-.collc{
+.c{
     background-image: url(../img/banner-2.jpg);
     background-position: center;
     background-size: cover;
@@ -118,10 +141,11 @@ nav{
     background-color: rgba(0,0,0,0.3);
     background-blend-mode: multiply;
     border-radius: 10px;
+    height: 184px;
 }
 
 
-.collr{
+.dl{
     background-image: url(../img/img-3.jpg);
     background-position: center;
     background-size: cover;
@@ -129,6 +153,7 @@ nav{
     background-color: rgba(0,0,0,0.3);
     background-blend-mode: multiply;
     border-radius: 10px;
+    height: 184px;
 }
 
 
